@@ -67,7 +67,7 @@ clr2 = np.array([255,203,97])/255
 clr6 = np.array([255,137,79])/255
 clr4 = np.array([234,91,111])/255
 
-# FIGURA 1: Lazo abierto 
+# Figura 1: Lazo abierto 
 fg1 = plt.figure()
 plt.plot(t,u2,'-',color=clr1,label='F(t): Pulso')
 plt.plot(t,Fsu2,'-',color=clr2,label='Fs1(t): Control')
@@ -84,7 +84,8 @@ fg1.set_size_inches(w,h)
 fg1.savefig('sistema_muscoesqueletico_python.png',dpi=600,bbox_inches='tight')
 fg1.savefig('sistema_muscoesqueletico_python.pdf',dpi=600,bbox_inches='tight')
 
-# FIGURA 2: Lazo cerrado
+# Figura 2: Lazo cerrado
+fg2 = plt.figure()
 plt.plot(t,u2,'-',color=clr1,label='F(t): Pulso')
 plt.plot(t,Fsu2,'-',color=clr2,label='Fs1(t): Control')
 plt.plot(t,Fu,'-',color=clr6,label='Fs2(t): Caso')
@@ -100,4 +101,5 @@ plt.show()
 fg2.set_size_inches(w,h)
 fg2.savefig('sistema_muscoesqueletico_Cerrado_python.png',dpi=600,bbox_inches='tight')
 fg2.savefig('sistema_muscoesqueletico_Cerrado_python.pdf',dpi=600,bbox_inches='tight')
+
 
