@@ -2,7 +2,7 @@
 
 # Práctica: Sistema musculoesquelético
 
-## Información de  estudiante
+## Información del  estudiante
 
 Jesus Javier Morales Lozoya [20210806]; jesus.moralesl201@tectijuana.edu.mx
 
